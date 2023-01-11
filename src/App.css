@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200&family=Poppins:wght@200;300&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Poppins', sans-serif;
+}
+
+header{
+  height: 10vh;
+  background: dodgerblue;
+}
+
+.loading{
+  text-align: center;
+}
+
+.nav-container{
+  width: 70%;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-container .title{
+  font-size: 1.5rem;
+  color: #fff;
+  font-weight: bold;
+  letter-spacing: 1.5px
+}
+
+.cart-info{
+  color: white;
+  font-size: 1.8rem;
+  position: relative;
+}
+
+.cart-count{
+  background: green;
+  font-size: 0.7rem;
+  display: inline-block;
+  width: 1.1rem;
+  height: 1.1rem;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 1.1rem;
+  position: absolute;
+  left: 16px;
+}
+
+.cart-wrap{
+    height: 90vh;
+    text-align: center;
+    padding: 50px;
+}
+
+.cart-wrap h2{
+    margin-bottom: 40px;
+  }
+
+.cart-container{
+  width: 700px;
+  margin: 0 auto;
+}
+
+.total{
+  display: flex;
+  max-width: 700px;
+  margin: 0 auto;
+  justify-content: space-between;
+  font-weight: bold;
+  padding: 8px;
+}
+
+hr{
+  width: 700px;  
+  margin: 0 auto;
+  height: 2px;
+  margin-top: 10px;
+}
+
+.cart-item{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.cart-info-left img{
+    max-width: 70px;
+  }
+
+.cart-info-left{
+    display: flex;
+    font-size: 14px;
+  }
+
+.cart-info-left div{
+  text-align: left;
+}
+
+.clear-cart{
+  text-align: center;
+}
+.clear-cart button{
+  padding: 5px 8px;
+  border-radius: 2px;
+  border: 1px solid gray;
+  cursor: pointer;
+  background: transparent;
+  transition: all .2s ease-in;
+}
+
+.clear-cart button:hover{
+  background: orangered;
+  color: white;
+  border: transparent;
+}
+
+.cart-empty{
+  text-align: center;
+  height: 80vh;
+  line-height: 80vh;
+}
+
+.remove{
+  cursor: pointer;
+}
+
+.remove:hover{
+  font-weight: bold;
+}
+
+
+.amnt span{
+    cursor: pointer
+}
+
+.amnt span:hover{
+  color: gray;
+}
